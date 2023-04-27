@@ -7,10 +7,63 @@
 </head>
 
 <body>
+    <form action="" method="post">
+        <div>
+            <label for="name">Name*</label>
+            <input type="text" name="Name" id="name" placeholder="name"  required>
+        </div>
+        <br>
+        <div>
+           <label for="email">Email*</label>
+           <input type="email" name="Email" id="email" placeholder="email" required> 
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender*</label>
+		  <label for="Male">Male</label>
+		  <input type="radio" name="gender" id="gender_m" required>
+		  <label for="Female">Female</label>
+		  <input type="radio" name="gender" id="gender_m" required>
+		  
+        </div>
+        <br>
+        <div>
+            <label for="laptop">Laptop Brands*</label>
+            <select name="laptop  " id="laptop  ">
+                <option id="laptop" value="Apple" required>Apple</option>
+				<option id="laptop" value="ASUS" required>ASUS</option>
+			    
+			    <option id="laptop" value="HP" required>HP</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="age">Age*</label>
+            <input type="number" name="age" maxlength="3" id="age" placeholder="age" required>
+        </div>
+        <br>
+        <div>
+            <label for="dob">DOB*</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password*</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+        </div>
+        <br>
+        <div>
+            <label for="portfolio">Portfolio</label>
+            <input type="url" name="portfolio" id="portfolio" required>
+        </div>
+        <br>
+        <div>
+            <button type="submit">submit</button>
+        </div>
+
+    </form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
-
-</html>
